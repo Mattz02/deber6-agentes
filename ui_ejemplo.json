@@ -1,0 +1,13 @@
+{
+  "component": "Card",
+  "children": [
+    { "component": "Text", "text": "usuarios.py · línea 21 · severidad: alta" },
+    { "component": "Text", "text": "nombre se concatena en SQL." },
+    {
+      "component": "Button",
+      "label": "Solicitar revisión adicional",
+      "event": "pedir_revision",
+      "data": { "archivo": "usuarios.py", "linea": 21, "hallazgo": "sql-concatenado" }
+    }
+  ]
+}
